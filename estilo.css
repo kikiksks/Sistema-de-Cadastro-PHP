@@ -1,0 +1,116 @@
+
+:root {
+    --cor-principal: #490303ff;
+    --cor-hover: #490303ff;
+    --cor-fundo: rgb(186, 143, 143);
+    --cor-container: #ffffff;
+    --cor-texto: #333333;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+     color: #490303ff;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.container { color: #490303ff;
+    background-color: var(--cor-container);
+    width: 90%;
+    max-width: 450px;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.formulario {
+    max-width: 450px;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+}
+
+input:not([type="radio"]), select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+
+.opcoes label {
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.opcoes input {
+    width: auto;
+}
+
+.botao {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: var(--cor-principal);
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 12px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.botao:hover {
+    background-color: var(--cor-hover);
+}
+
+a:not(.botao) {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.mensagem {
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.consulta {
+    max-width: 100%;
+}
+
+.tabela {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th, td {
+    border: 1px solid #cccccc;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: var(--cor-principal);
+    color: white;
+}
